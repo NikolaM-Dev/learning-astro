@@ -175,8 +175,11 @@ importers:
 
   .:
     dependencies:
+      '@astrojs/compiler-rs':
+        specifier: 0.5.2
+        version: 0.5.2
       astro:
-        specifier: ^7.4.2
+        specifier: 7.4.2
         version: 7.4.2(yaml@2.9.1)
     devDependencies:
       vite-plus:

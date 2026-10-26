@@ -10,7 +10,8 @@
     "prepare": "vp config"
   },
   "dependencies": {
-    "astro": "^7.4.2"
+    "@astrojs/compiler-rs": "0.5.2",
+    "astro": "7.4.2"
   },
   "devDependencies": {
     "vite-plus": "catalog:"
