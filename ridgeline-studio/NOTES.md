@@ -1,1 +1,5 @@
-- How I can improve my tailwind theme?
+- Do am I following the proper conventions in Tailwind theme?
+- Why the astro environment feels incomplete?
+- How I set up TypeScript with Astro JS?
+- How I create variants of my components?
+- Does prettier a better job formatting Astro files?

@@ -12,4 +12,24 @@
   --color-surface-sunken: #e9eeec;
 
   --color-border-default: #d8dfdc;
+
+  --text-label-s: 12px;
+  --leading-label-s: 16px;
+  --font-weight-label-s: 500;
+
+  --text-label-m: 14px;
+  --leading-label-m: 20px;
+  --font-weight-label-m: normal;
+
+  --text-display: 48px;
+  --leading-display: 56px;
+  --font-weight-display: bold;
+
+  --text-body-l: 18px;
+  --leading-body-l: 28px;
+  --font-weight-body-l: normal;
+
+  --text-body-s: 13px;
+  --leading-body-s: 18px;
+  --font-weight-body-s: normal;
 }
