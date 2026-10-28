@@ -1,0 +1,15 @@
+---
+const { feature } = Astro.props;
+const Icon = feature.icon;
+---
+
+<article class="p-7 rounded-3xl flex flex-col gap-4 bg-white shadow-card">
+  <header class="rounded-[14px] bg-brand-soft size-12 flex justify-center items-center">
+    <Icon />
+  </header>
+
+  <main class="flex flex-col gap-2">
+    <h3 class="text-text-primary text-heading-s leading-body-s font-heading-s">{feature.title}</h3>
+    <p class="text-text-seconday text-body-m leading-body-m font-body-m">{feature.description}</p>
+  </main>
+</article>

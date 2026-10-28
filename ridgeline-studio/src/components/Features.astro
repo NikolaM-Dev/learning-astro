@@ -1,0 +1,45 @@
+---
+import FeatureCard from "./FeatureCard.astro";
+
+import LayersIcon from "../assets/layers.svg";
+import DownloadIcon from "../assets/download.svg";
+import ClockIcon from "../assets/clock.svg";
+
+const features = [
+  {
+    icon: LayersIcon,
+    title: "Routes everyone can edit",
+    description:
+      "Draw a route once and let the whole club adjust it. Every change is kept, so nothing is lost.",
+  },
+  {
+    icon: DownloadIcon,
+    title: "Ready without signal",
+    description:
+      "Maps, notes and meeting points are saved to each phone before you leave the car park.",
+  },
+  {
+    icon: ClockIcon,
+    title: "Plans that fit the day",
+    description:
+      "Sunrise, daylight and pace are worked out for you, with a turnaround time you can trust.",
+  },
+];
+---
+
+<section class="px-5 py-11 bg-surface-page flex flex-col gap-12">
+  <header class="text-center flex flex-col gap-3">
+    <h2 class="text-text-primary text-heading-l leading-heading-l font-heading-l">
+      Everything the day needs
+    </h2>
+    <p class="text-text-seconday leading-body-l font-body-l text-body-l">
+      Three things walking clubs told us they were tired of doing by hand.
+    </p>
+  </header>
+
+  <main class="flex flex-col gap-6">
+    {features.map((feature) => (
+      <FeatureCard feature={feature} />
+    ))}
+  </main>
+</section>

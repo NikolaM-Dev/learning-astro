@@ -1,6 +1,7 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 @theme {
+  /* -- Colors ------------------------------------------------------------ */
   --color-brand-primary: #1f6f5c;
   --color-brand-soft: #ddefe8;
   --color-brand-accent: #f2a541;
@@ -13,6 +14,19 @@
 
   --color-border-default: #d8dfdc;
 
+  /* -- Text Styles ------------------------------------------------------- */
+  --text-display: 48px;
+  --leading-display: 56px;
+  --font-weight-display: bold;
+
+  --text-heading-l: 30px;
+  --leading-heading-l: 38px;
+  --font-weight-heading-l: bold;
+
+  --text-heading-s: 17px;
+  --leading-heading-s: 24px;
+  --font-weight-heading-s: bold;
+
   --text-label-s: 12px;
   --leading-label-s: 16px;
   --font-weight-label-s: 500;
@@ -21,15 +35,18 @@
   --leading-label-m: 20px;
   --font-weight-label-m: normal;
 
-  --text-display: 48px;
-  --leading-display: 56px;
-  --font-weight-display: bold;
-
   --text-body-l: 18px;
   --leading-body-l: 28px;
   --font-weight-body-l: normal;
 
+  --text-body-m: 15px;
+  --leading-body-m: 22px;
+  --font-weight-body-m: normal;
+
   --text-body-s: 13px;
   --leading-body-s: 18px;
   --font-weight-body-s: normal;
+
+  /* -- Shadows ----------------------------------------------------------- */
+--shadow-card: 0px 4px 16px 0px rgba(20, 32, 28, 0.08);
 }
