@@ -10,7 +10,9 @@
   },
   "dependencies": {
     "@astrojs/compiler-rs": "0.5.2",
-    "astro": "7.4.2"
+    "@tailwindcss/vite": "4.3.3",
+    "astro": "7.4.2",
+    "tailwindcss": "4.3.3"
   },
   "devDependencies": {
     "vite-plus": "catalog:"
