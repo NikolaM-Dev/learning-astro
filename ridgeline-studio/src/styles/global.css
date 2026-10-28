@@ -23,6 +23,10 @@
   --leading-heading-l: 38px;
   --font-weight-heading-l: bold;
 
+  --text-heading-m: 22px;
+  --leading-heading-m: 30px;
+  --font-weight-heading-m: bold;
+
   --text-heading-s: 17px;
   --leading-heading-s: 24px;
   --font-weight-heading-s: bold;
@@ -48,5 +52,5 @@
   --font-weight-body-s: normal;
 
   /* -- Shadows ----------------------------------------------------------- */
---shadow-card: 0px 4px 16px 0px rgba(20, 32, 28, 0.08);
+  --shadow-card: 0px 4px 16px 0px rgba(20, 32, 28, 0.08);
 }

@@ -1,0 +1,28 @@
+---
+import Stat from "./Stat.astro";
+
+const stats = [
+  {
+    title: "4,200",
+    description: "Clubs planning together",
+  },
+  {
+    title: "38k",
+    description: "Routes shared",
+  },
+  {
+    title: "96%",
+    description: "Walks finished on time",
+  },
+  {
+    title: "12",
+    description: "Languages",
+  },
+];
+---
+
+<section class="bg-brand-primary px-5 py-8 flex flex-col gap-8">
+  {stats.map((stat) => (
+    <Stat stat={stat} />
+  ))}
+</section>
