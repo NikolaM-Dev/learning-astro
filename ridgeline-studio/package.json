@@ -3,10 +3,13 @@
   "version": "0.0.1",
   "type": "module",
   "scripts": {
-    "dev": "astro dev",
+    "astro": "astro",
     "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
+    "check:fix": "vp run fmt:fix --cache && vp check --fix",
+    "dev": "astro dev",
+    "fmt:check": "prettier --check .",
+    "fmt:fix": "prettier --write .",
+    "preview": "astro preview"
   },
   "dependencies": {
     "@astrojs/compiler-rs": "0.5.2",
@@ -16,6 +19,9 @@
     "tailwindcss": "4.3.3"
   },
   "devDependencies": {
+    "prettier": "3.9.10",
+    "prettier-plugin-astro": "1.1.2",
+    "prettier-plugin-tailwindcss": "0.0.0-insiders.5b27f94",
     "vite-plus": "catalog:"
   },
   "devEngines": {
