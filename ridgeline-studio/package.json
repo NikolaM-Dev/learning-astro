@@ -6,7 +6,7 @@
     "astro": "astro",
     "build": "astro build",
     "check:fix": "vp run fmt:fix --cache && vp check --fix",
-    "dev": "astro dev",
+    "dev": "astro dev --host",
     "fmt:check": "prettier --check .",
     "fmt:fix": "prettier --write .",
     "preview": "astro preview"
