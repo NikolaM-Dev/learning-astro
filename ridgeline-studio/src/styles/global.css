@@ -14,6 +14,9 @@
 
   --color-border-default: #d8dfdc;
 
+  /* -- Fonts ------------------------------------------------------------- */
+  --font-sans: "Inter Variable", sans-serif;
+
   /* -- Text Styles ------------------------------------------------------- */
   --text-display: 48px;
   --leading-display: 56px;
