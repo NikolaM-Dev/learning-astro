@@ -2,7 +2,11 @@
 const { stat } = Astro.props;
 ---
 
-<article class="text-center text-white flex flex-col gap-1">
-  <em class="font-display leading-display text-display not-italic">{stat.title}</em>
-  <p class="opacity-80 font-body-m leading-body-m text-body-m">{stat.description}</p>
+<article class="flex flex-col gap-1 text-center text-white">
+  <em class="text-display leading-display font-display not-italic">
+    {stat.title}
+  </em>
+  <p class="text-body-m leading-body-m font-body-m opacity-80">
+    {stat.description}
+  </p>
 </article>
