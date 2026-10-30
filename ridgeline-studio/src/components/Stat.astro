@@ -3,10 +3,10 @@ const { stat } = Astro.props;
 ---
 
 <article class="flex flex-col gap-1 text-center text-white">
-  <em class="text-display leading-display font-display not-italic">
+  <em class="text-display not-italic">
     {stat.title}
   </em>
-  <p class="text-body-m leading-body-m font-body-m opacity-80">
+  <p class="text-body-m opacity-80">
     {stat.description}
   </p>
 </article>

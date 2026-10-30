@@ -19,40 +19,40 @@
 
   /* -- Text Styles ------------------------------------------------------- */
   --text-display: 48px;
-  --leading-display: 56px;
-  --font-weight-display: bold;
+  --text-display--line-height: 56px;
+  --text-display--font-weight: 700;
 
   --text-heading-l: 30px;
-  --leading-heading-l: 38px;
-  --font-weight-heading-l: bold;
+  --text-heading-l--line-height: 38px;
+  --text-heading-l--font-weight: 700;
 
   --text-heading-m: 22px;
-  --leading-heading-m: 30px;
-  --font-weight-heading-m: bold;
+  --text-heading-m--line-height: 30px;
+  --text-heading-m--font-weight: 700;
 
   --text-heading-s: 17px;
-  --leading-heading-s: 24px;
-  --font-weight-heading-s: bold;
+  --text-heading-s--line-height: 24px;
+  --text-heading-s--font-weight: 700;
 
   --text-label-s: 12px;
-  --leading-label-s: 16px;
-  --font-weight-label-s: 500;
+  --text-label-s--line-height: 16px;
+  --text-label-s--font-weight: 500;
 
   --text-label-m: 14px;
-  --leading-label-m: 20px;
-  --font-weight-label-m: normal;
+  --text-label-m--line-height: 20px;
+  --text-label-m--font-weight: 400;
 
   --text-body-l: 18px;
-  --leading-body-l: 28px;
-  --font-weight-body-l: normal;
+  --text-body-l--line-height: 28px;
+  --text-body-l--font-weight: 400;
 
   --text-body-m: 15px;
-  --leading-body-m: 22px;
-  --font-weight-body-m: normal;
+  --text-body-m--line-height: 22px;
+  --text-body-m--font-weight: 400;
 
   --text-body-s: 13px;
-  --leading-body-s: 18px;
-  --font-weight-body-s: normal;
+  --text-body-s--line-height: 18px;
+  --text-body-s--font-weight: 400;
 
   /* -- Shadows ----------------------------------------------------------- */
   --shadow-card: 0px 4px 16px 0px rgba(20, 32, 28, 0.08);
