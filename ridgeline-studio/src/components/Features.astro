@@ -1,11 +1,12 @@
 ---
 import FeatureCard from "./FeatureCard.astro";
+import type { Feature } from "../types";
 
 import LayersIcon from "@assets/layers.svg";
 import DownloadIcon from "@assets/download.svg";
 import ClockIcon from "@assets/clock.svg";
 
-const features = [
+const features: Feature[] = [
   {
     icon: LayersIcon,
     title: "Routes everyone can edit",
@@ -30,9 +31,7 @@ const features = [
 <section class="flex justify-center bg-surface-page px-5 py-11 md:px-10 md:py-22">
   <div class="flex max-w-desktop flex-col gap-12">
     <header class="flex flex-col gap-3 text-center">
-      <h2 class="text-heading-l text-text-primary">
-        Everything the day needs
-      </h2>
+      <h2 class="text-heading-l text-text-primary">Everything the day needs</h2>
       <p class="text-body-l text-text-secondary">
         Three things walking clubs told us they were tired of doing by hand.
       </p>

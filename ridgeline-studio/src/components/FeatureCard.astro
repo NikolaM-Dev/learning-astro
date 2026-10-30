@@ -1,4 +1,10 @@
 ---
+import type { Feature } from "../types";
+
+type Props = {
+  feature: Feature;
+};
+
 const { feature } = Astro.props;
 const Icon = feature.icon;
 ---
