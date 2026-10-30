@@ -1,4 +1,6 @@
 catalog:
+  add: 2.0.9
+  tsrs: 0.20.1-ts7.1.0-beta
   vite: npm:@voidzero-dev/vite-plus-core@1.4.0
   vite-plus: 1.4.0
 overrides:

@@ -4,12 +4,13 @@
   "type": "module",
   "scripts": {
     "astro": "astro",
-    "build": "astro check && astro build",
+    "build": "vp run typecheck && astro check && astro build",
     "check:fix": "vp run fmt:fix --cache && vp check --fix",
     "dev": "astro dev --host",
     "fmt:check": "prettier --check .",
     "fmt:fix": "prettier --write .",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "typecheck": "tsrs --noEmit --fast"
   },
   "dependencies": {
     "@astrojs/check": "0.9.12",
@@ -18,6 +19,7 @@
     "@tailwindcss/vite": "4.3.3",
     "astro": "7.4.2",
     "tailwindcss": "4.3.3",
+    "tsrs": "catalog:",
     "typescript": "6.0.3"
   },
   "devDependencies": {
