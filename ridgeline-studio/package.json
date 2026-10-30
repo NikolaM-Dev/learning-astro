@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "astro": "astro",
-    "build": "astro build",
+    "build": "astro check && astro build",
     "check:fix": "vp run fmt:fix --cache && vp check --fix",
     "dev": "astro dev --host",
     "fmt:check": "prettier --check .",
