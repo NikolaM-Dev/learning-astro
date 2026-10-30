@@ -217,9 +217,6 @@ importers:
 
   .:
     dependencies:
-      '@astrojs/compiler-rs':
-        specifier: 0.5.2
-        version: 0.5.2
       '@fontsource-variable/inter':
         specifier: 5.3.0
         version: 5.3.0
@@ -241,7 +238,7 @@ importers:
         version: 1.1.2(prettier@3.9.10)
       prettier-plugin-tailwindcss:
         specifier: 0.0.0-insiders.5b27f94
-        version: 0.0.0-insiders.5b27f94(prettier-plugin-astro@1.1.2(prettier@3.9.10))(prettier@3.9.10)
+        version: 0.0.0-insiders.5b27f94(prettier-plugin-astro@1.1.2(prettier@3.9.10))(prettier-plugin-organize-attributes@1.0.0(prettier@3.9.10))(prettier@3.9.10)
       vite-plus:
         specifier: 'catalog:'
         version: 1.4.0(@astrojs/compiler-rs@0.5.2)(@vitest/ui@5.0.5)(jiti@2.7.0)(typescript@6.0.3)(yaml@2.9.1)
@@ -2006,6 +2003,12 @@ packages:
     engines: {node: '>=22.12.0'}
     peerDependencies:
       prettier: ^3.5.3
+
+  prettier-plugin-organize-attributes@1.0.0:
+    resolution: {integrity: sha512-+NmameaLxbCcylEXsKPmawtzla5EE6ECqvGkpfQz4KM847fXDifB1gFnPQEpoADAq6IXg+cMI8Z0ISJEXa6fhg==}
+    engines: {node: '>=14.0.0'}
+    peerDependencies:
+      prettier: ^3.0.0
 
   prettier-plugin-tailwindcss@0.0.0-insiders.5b27f94:
     resolution: {integrity: sha512-1Kcao7i9xkk1FhomIiD4d2emC+RiWVWThC4kpo/tZTkKJvPkhr7e1tkuELU/HSYLaFECmfxIkv+21HEjkkhiYw==}
@@ -3948,11 +3951,17 @@ snapshots:
       prettier: 3.9.10
       sass-formatter: 0.8.0
 
-  prettier-plugin-tailwindcss@0.0.0-insiders.5b27f94(prettier-plugin-astro@1.1.2(prettier@3.9.10))(prettier@3.9.10):
+  prettier-plugin-organize-attributes@1.0.0(prettier@3.9.10):
+    dependencies:
+      prettier: 3.9.10
+    optional: true
+
+  prettier-plugin-tailwindcss@0.0.0-insiders.5b27f94(prettier-plugin-astro@1.1.2(prettier@3.9.10))(prettier-plugin-organize-attributes@1.0.0(prettier@3.9.10))(prettier@3.9.10):
     dependencies:
       prettier: 3.9.10
     optionalDependencies:
       prettier-plugin-astro: 1.1.2(prettier@3.9.10)
+      prettier-plugin-organize-attributes: 1.0.0(prettier@3.9.10)
 
   prettier@3.9.10: {}
 
