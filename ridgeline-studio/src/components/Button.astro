@@ -1,0 +1,46 @@
+---
+import type { HTMLAttributes } from "astro/types";
+import { cva, type VariantProps } from "class-variance-authority";
+import { cn } from "cnfast";
+
+const buttonVariants = cva("text-label-m text-text-primary", {
+  variants: {
+    variant: {
+      default: "bg-brand-primary text-white",
+      secondary: "bg-surface-sunken",
+      ghost: "bg-transparent",
+    },
+    size: {
+      default: "rounded-[14px] px-5.5 py-3.5",
+      small: "rounded-xl px-4.5 py-2.5",
+    },
+  },
+  compoundVariants: [
+    {
+      variant: "ghost",
+      class: "p-0",
+    },
+  ],
+  defaultVariants: {
+    variant: "default",
+    size: "default",
+  },
+});
+
+interface Props
+  extends HTMLAttributes<"button">, VariantProps<typeof buttonVariants> {
+  title: string;
+}
+
+const {
+  title,
+  class: className,
+  variant,
+  size,
+  ...props
+} = Astro.props as Props;
+---
+
+<button class={cn(buttonVariants({ variant, size, className }))} {...props}>
+  {title}
+</button>

@@ -1,8 +1,7 @@
 ---
-import Badge from "./Badge.astro";
-import ButtonPrimary from "./ButtonPrimary.astro";
-import ButtonSecondary from "./ButtonSecondary.astro";
-import Headline from "./Headline.astro";
+import Badge from "@/components/Badge.astro";
+import Button from "@/components/Button.astro";
+import Headline from "@/components/Headline.astro";
 ---
 
 <section class="flex flex-col gap-6 md:items-center lg:items-start">
@@ -10,8 +9,8 @@ import Headline from "./Headline.astro";
   <Headline />
 
   <div class="flex gap-3 md:justify-center">
-    <ButtonPrimary title="Start free" />
-    <ButtonSecondary title="Watch the tour" />
+    <Button title="Start free" />
+    <Button variant="secondary" title="Watch the tour" />
   </div>
 
   <p class="text-body-s text-text-secondary">
