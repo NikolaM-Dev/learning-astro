@@ -1,5 +1,4 @@
 - Why the Astro environment feels incomplete?
-- How I create variants of my components?
 - Is there a better way that having to use `max-w-desktop` in the parent and
   `flex-1` in the child for responsive design?
 - I need to learn more about flex and grid CSS features.
