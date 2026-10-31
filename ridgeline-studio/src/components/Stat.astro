@@ -1,9 +1,8 @@
 ---
+import type { Stat } from "@/types";
+
 type Props = {
-  stat: {
-    title: string;
-    description: string;
-  };
+  stat: Stat;
 };
 
 const { stat } = Astro.props;
