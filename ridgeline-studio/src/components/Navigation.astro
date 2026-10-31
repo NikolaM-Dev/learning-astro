@@ -15,6 +15,7 @@ import MenuIcon from "@/assets/menu.svg";
         class="btn-menu group grid size-4 place-items-center"
         aria-controls="main-menu"
         aria-expanded="false"
+        title="Menu Toggle"
       >
         <MenuIcon class="group-aria-expanded:hidden" />
         <CrossMarkIcon class="not-group-aria-expanded:hidden" />
@@ -82,8 +83,13 @@ import MenuIcon from "@/assets/menu.svg";
       </ul>
 
       <div class="flex items-center gap-5">
-        <Button size="small" variant="ghost" title="Sign in" />
-        <Button size="small" title="Stay free" />
+        <Button
+          aria-label="Sign in"
+          size="small"
+          variant="ghost"
+          title="Sign in"
+        />
+        <Button aria-label="Stay free" size="small" title="Stay free" />
       </div>
     </div>
   </div>

@@ -9,8 +9,12 @@ import Headline from "@/components/Headline.astro";
   <Headline />
 
   <div class="flex gap-3 md:justify-center lg:justify-start">
-    <Button title="Start free" />
-    <Button variant="secondary" title="Watch the tour" />
+    <Button aria-label="Start free" title="Start free" />
+    <Button
+      aria-label="Watch the tour"
+      variant="secondary"
+      title="Watch the tour"
+    />
   </div>
 
   <p class="text-body-s text-text-secondary">
