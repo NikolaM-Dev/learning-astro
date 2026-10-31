@@ -10,6 +10,7 @@
     "knip:check": "knip",
     "lint:check": "vp check --no-fmt",
     "check:fix": "vp run fmt:fix --cache && vp check --fix",
+    "accessibility:check": "nr build && nr preview",
     "dev": "astro dev --host",
     "fmt:check": "prettier --check .",
     "fmt:fix": "prettier --write .",
