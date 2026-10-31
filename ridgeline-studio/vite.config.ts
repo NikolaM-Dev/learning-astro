@@ -2,7 +2,7 @@ import { defineConfig } from "vite-plus";
 
 export default defineConfig({
   staged: {
-    "*": "vp run check:fix",
+    "*": ["vp run check:fix", "vp run knip:check"],
   },
   check: {
     fmt: false,
