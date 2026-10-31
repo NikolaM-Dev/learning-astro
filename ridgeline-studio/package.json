@@ -5,8 +5,10 @@
   "scripts": {
     "astro": "astro",
     "build": "vp run typecheck && astro check && astro build",
-    "check": "vp run typecheck && astro check",
+    "check": "vp run fmt:check && vp run lint:check && vp run typecheck && vp run astro:check && vp run knip:check",
+    "astro:check": "astro check",
     "knip:check": "knip",
+    "lint:check": "vp check --no-fmt",
     "check:fix": "vp run fmt:fix --cache && vp check --fix",
     "dev": "astro dev --host",
     "fmt:check": "prettier --check .",
