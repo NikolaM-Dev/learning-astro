@@ -23,9 +23,9 @@ function main() {
 
   const ATTRIBUTE_ID = "aria-expanded";
   btnMenu.addEventListener("click", () => {
-    let isExpandedStr = mobileMenu.getAttribute(ATTRIBUTE_ID);
+    let isExpandedStr = btnMenu.getAttribute(ATTRIBUTE_ID);
     if (isExpandedStr === null) {
-      console.error("[ERROR] aria-is-expanded attribute is missing");
+      console.error(`[ERROR] ${ATTRIBUTE_ID} attribute is missing`);
       return;
     }
 
@@ -36,7 +36,7 @@ function main() {
     }
 
     btnMenu.setAttribute(ATTRIBUTE_ID, String(!isExpanded));
-    mobileMenu.setAttribute(ATTRIBUTE_ID, String(!isExpanded));
+    mobileMenu.classList.toggle("hidden", isExpanded);
   });
 }
 
