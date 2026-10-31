@@ -1,2 +1,0 @@
-- How to improve my `vp staged` command.
-- How to improve my `package.json` scripts
