@@ -117,7 +117,6 @@ pnpm dev
 <footer>
   <p align="center"><img alt="Footer" src="https://raw.githubusercontent.com/NikolaM-Dev/base-repo_tmpl/v1/docs/assets/footer.svg" /></p>
 
-  <p align="center">⭐ Hit the Star Button if You Found This Useful ⭐</p>
   <p align="center">
     <a href="https://x.com/nikolam_dev" target="_blank"><img alt="X (Twitter) Icon" src="https://raw.githubusercontent.com/NikolaM-Dev/base-repo_tmpl/v1/docs/assets/twitter-x.svg"></a>
     <a href="https://www.linkedin.com/in/nikolam-dev" target="_blank"><img alt="LinkedIn Icon" src="https://raw.githubusercontent.com/NikolaM-Dev/base-repo_tmpl/v1/docs/assets/linkedin.svg"></a>
