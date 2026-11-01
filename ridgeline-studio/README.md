@@ -1,27 +1,29 @@
-<h3 align="center">
-  <img alt="Logo" src="https://raw.githubusercontent.com/NikolaM-Dev/learning-astro/main/ridgeline-studio/docs/assets/logo.svg" width="100" />
-  <br>
-  Ridgeline Studio 🏔️🥾
-  <img alt="Gap" src="https://raw.githubusercontent.com/NikolaM-Dev/base-repo_tmpl/v1/docs/assets/gap.svg" height="32" width="0"/>
-</h3>
-
-<p align="center">
-  <a href="https://github.com/NikolaM-Dev/learning-astro/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/NikolaM-Dev/learning-astro?style=flat&colorA=32302f&colorB=73665b"></a>
-  <a href="https://github.com/NikolaM-Dev/learning-astro/contributors"><img alt="Contributors" src="https://img.shields.io/github/contributors/NikolaM-Dev/learning-astro?style=flat&colorA=32302f&colorB=99af6b"></a>
-  <a href="https://github.com/NikolaM-Dev/learning-astro/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/NikolaM-Dev/learning-astro?style=flat&colorA=32302f&colorB=f4a21c"></a>
-  <a href="https://github.com/NikolaM-Dev/learning-astro/issues"><img alt="Issues" src="https://img.shields.io/github/issues/NikolaM-Dev/learning-astro?style=flat&colorA=32302f&colorB=ea6062"></a>
-  <a href="https://github.com/NikolaM-Dev/learning-astro/commits/main/"><img alt="Last Commit" src="https://img.shields.io/github/last-commit/NikolaM-Dev/learning-astro?style=flat&colorA=32302f&colorB=9480ba"></a>
-</p>
-
-<div align="center">
-  <figure>
-    <a href="https://ridgeline-studio-eight.vercel.app">
-      <img alt="Preview" src="https://raw.githubusercontent.com/NikolaM-Dev/learning-astro/main/ridgeline-studio/docs/assets/preview.jpg">
-    </a>
+<header>
+  <h3 align="center">
+    <img alt="Logo" src="https://raw.githubusercontent.com/NikolaM-Dev/learning-astro/main/ridgeline-studio/docs/assets/logo.svg" width="100" />
     <br>
-    <figcaption><i>Ridgeline Studio Preview</i></figcaption>
-  </figure>
-</div>
+    Ridgeline Studio 🏔️🥾
+    <img alt="Gap" src="https://raw.githubusercontent.com/NikolaM-Dev/base-repo_tmpl/v1/docs/assets/gap.svg" height="32" width="0"/>
+  </h3>
+
+  <p align="center">
+    <a href="https://github.com/NikolaM-Dev/learning-astro/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/NikolaM-Dev/learning-astro?style=flat&colorA=32302f&colorB=73665b"></a>
+    <a href="https://github.com/NikolaM-Dev/learning-astro/contributors"><img alt="Contributors" src="https://img.shields.io/github/contributors/NikolaM-Dev/learning-astro?style=flat&colorA=32302f&colorB=99af6b"></a>
+    <a href="https://github.com/NikolaM-Dev/learning-astro/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/NikolaM-Dev/learning-astro?style=flat&colorA=32302f&colorB=f4a21c"></a>
+    <a href="https://github.com/NikolaM-Dev/learning-astro/issues"><img alt="Issues" src="https://img.shields.io/github/issues/NikolaM-Dev/learning-astro?style=flat&colorA=32302f&colorB=ea6062"></a>
+    <a href="https://github.com/NikolaM-Dev/learning-astro/commits/main/"><img alt="Last Commit" src="https://img.shields.io/github/last-commit/NikolaM-Dev/learning-astro?style=flat&colorA=32302f&colorB=9480ba"></a>
+  </p>
+
+  <div align="center">
+    <figure>
+      <a href="https://ridgeline-studio-eight.vercel.app">
+        <img alt="Preview" src="https://raw.githubusercontent.com/NikolaM-Dev/learning-astro/main/ridgeline-studio/docs/assets/preview.jpg">
+      </a>
+      <br>
+      <figcaption><i>Ridgeline Studio Preview</i></figcaption>
+    </figure>
+  </div>
+</header>
 
 &nbsp;
 
