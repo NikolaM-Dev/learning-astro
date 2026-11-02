@@ -1,5 +1,4 @@
 {
   "$schema": "https://unpkg.com/knip@6/schema.json",
-  "tags": ["-lintignore"],
-  "entry": ["src/scripts/menu.ts"]
+  "tags": ["-lintignore"]
 }
