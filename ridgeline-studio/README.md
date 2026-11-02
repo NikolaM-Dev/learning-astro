@@ -3,20 +3,20 @@
     <img alt="Logo" src="https://raw.githubusercontent.com/NikolaM-Dev/learning-astro/main/ridgeline-studio/docs/assets/logo.svg" width="100" />
     <br>
     Ridgeline Studio 🏔️🥾
-    <img alt="Gap" src="https://raw.githubusercontent.com/NikolaM-Dev/base-repo_tmpl/v1/docs/assets/gap.svg" height="32" width="0"/>
+    <img alt="Gap" src="https://raw.githubusercontent.com/NikolaM-Dev/base-repo_tmpl/v1.0.0/docs/assets/gap.svg" height="32" width="0"/>
   </h3>
 
   <p align="center">
     <a href="https://github.com/NikolaM-Dev/learning-astro/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/NikolaM-Dev/learning-astro?style=flat&colorA=32302f&colorB=73665b"></a>
     <a href="https://github.com/NikolaM-Dev/learning-astro/contributors"><img alt="Contributors" src="https://img.shields.io/github/contributors/NikolaM-Dev/learning-astro?style=flat&colorA=32302f&colorB=99af6b"></a>
     <a href="https://github.com/NikolaM-Dev/learning-astro/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/NikolaM-Dev/learning-astro?style=flat&colorA=32302f&colorB=f4a21c"></a>
-    <a href="https://github.com/NikolaM-Dev/learning-astro/issues"><img alt="Issues" src="https://img.shields.io/github/issues/NikolaM-Dev/learning-astro?style=flat&colorA=32302f&colorB=ea6062"></a>
+    <a href="https://github.com/NikolaM-Dev/learning-astro/issues"><img alt="Issues" src="https://img.shields.io/github/issues/NikolaM-Dev/learning-astro?style=flat&colorA=32302f&colorB=d25780"></a>
     <a href="https://github.com/NikolaM-Dev/learning-astro/commits/main/"><img alt="Last Commit" src="https://img.shields.io/github/last-commit/NikolaM-Dev/learning-astro?style=flat&colorA=32302f&colorB=9480ba"></a>
   </p>
 
   <div align="center">
     <figure>
-      <a href="https://ridgeline-studio-eight.vercel.app">
+      <a href="https://ridgeline-studio-eight.vercel.app" target="_blank">
         <img alt="Preview" src="https://raw.githubusercontent.com/NikolaM-Dev/learning-astro/main/ridgeline-studio/docs/assets/preview.jpg">
       </a>
       <br>
@@ -115,12 +115,12 @@ pnpm dev
 &nbsp;
 
 <footer>
-  <p align="center"><img alt="Footer" src="https://raw.githubusercontent.com/NikolaM-Dev/base-repo_tmpl/v1/docs/assets/footer.svg" /></p>
+  <p align="center"><img alt="Footer" src="https://raw.githubusercontent.com/NikolaM-Dev/base-repo_tmpl/v1.0.0/docs/assets/footer.svg" /></p>
 
   <p align="center">
-    <a href="https://x.com/nikolam_dev" target="_blank"><img alt="X (Twitter) Icon" src="https://raw.githubusercontent.com/NikolaM-Dev/base-repo_tmpl/v1/docs/assets/twitter-x.svg"></a>
-    <a href="https://www.linkedin.com/in/nikolam-dev" target="_blank"><img alt="LinkedIn Icon" src="https://raw.githubusercontent.com/NikolaM-Dev/base-repo_tmpl/v1/docs/assets/linkedin.svg"></a>
-    <a href="https://github.com/NikolaM-Dev" target="_blank"><img alt="GitHub Icon" src="https://raw.githubusercontent.com/NikolaM-Dev/base-repo_tmpl/v1/docs/assets/github.svg"></a>
-    <a href="#readme" target="_blank"><img alt="Go to Top Icon" src="https://raw.githubusercontent.com/NikolaM-Dev/base-repo_tmpl/v1/docs/assets/top.svg"></a>
+    <a href="https://x.com/nikolam_dev" target="_blank"><img alt="X (Twitter) Icon" src="https://raw.githubusercontent.com/NikolaM-Dev/base-repo_tmpl/v1.0.0/docs/assets/twitter-x.svg"></a>
+    <a href="https://www.linkedin.com/in/nikolam-dev" target="_blank"><img alt="LinkedIn Icon" src="https://raw.githubusercontent.com/NikolaM-Dev/base-repo_tmpl/v1.0.0/docs/assets/linkedin.svg"></a>
+    <a href="https://github.com/NikolaM-Dev" target="_blank"><img alt="GitHub Icon" src="https://raw.githubusercontent.com/NikolaM-Dev/base-repo_tmpl/v1.0.0/docs/assets/github.svg"></a>
+    <a href="#readme" target="_blank"><img alt="Go to Top Icon" src="https://raw.githubusercontent.com/NikolaM-Dev/base-repo_tmpl/v1.0.0/docs/assets/top.svg"></a>
   </p>
 </footer>
