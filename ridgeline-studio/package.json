@@ -10,12 +10,14 @@
     "knip:check": "knip",
     "lint:check": "vp check --no-fmt",
     "check:fix": "vp run fmt:fix --cache && vp check --fix",
-    "accessibility:check": "nr build && nr preview",
+    "accessibility:check": "vp run build && vp run preview",
     "dev": "astro dev --host",
     "fmt:check": "prettier --check .",
     "fmt:fix": "prettier --write .",
     "preview": "astro preview",
-    "typecheck": "tsrs --noEmit --fast"
+    "typecheck": "tsrs --noEmit --fast",
+    "deploy:prod": "vp run check && vercel --prod",
+    "deploy:dev": "vp run check && vercel"
   },
   "dependencies": {
     "@astrojs/check": "0.9.12",
@@ -35,12 +37,13 @@
     "prettier-plugin-astro": "1.1.2",
     "prettier-plugin-tailwindcss": "0.0.0-insiders.5b27f94",
     "typescript": "6.0.3",
+    "vercel": "catalog:",
     "vite-plus": "catalog:"
   },
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
-      "version": "12.15.0",
+      "version": "12.16.1",
       "onFail": "download"
     }
   },

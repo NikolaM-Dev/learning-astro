@@ -1,6 +1,10 @@
+allowBuilds:
+  esbuild: set this to true or false
+  koffi: set this to true or false
 catalog:
   cnfast: 0.2.0
   tsrs: 0.20.1-ts7.1.0-beta
+  vercel: 65.9.0
   vite: npm:@voidzero-dev/vite-plus-core@1.4.0
   vite-plus: 1.4.0
 overrides:
